@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conocé Retiro Sustentable, cuatro cabañas equipadas al pie de la montaña en San Javier, Traslasierra.">
+    <title>Retiro Sustentable | Cabañas en San Javier</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <!-- El header reúne la marca y los accesos principales, así se encuentran rápido. -->
+    <header class="encabezado">
+        <a class="marca" href="index.html">
+            <!-- El texto alternativo cuenta qué muestra el logo si no carga o alguien no puede verlo. -->
+            <img src="./recursos/imagenes/isologo-rs.svg" alt="Retiro Sustentable, cabañas de montaña">
+            <span>Retiro Sustentable</span>
+        </a>
+        <!-- Nav agrupa los enlaces que sirven para moverse por el sitio. -->
+        <nav class="menu" aria-label="Menú principal">
+            <a href="index.html" aria-current="page">Inicio</a>
+            <a href="#cabanas">Las cabañas</a>
+            <a href="reservas.html">Reservas</a>
+        </nav>
+    </header>
+
+    <!-- Inicio es una página propia; sus enlaces te llevan a otras páginas completas del sitio (MPA). -->
+    <!-- El main junta lo más importante de esta página: conocer el lugar y elegir cabaña. -->
+    <main>
+        <section class="portada">
+            <p class="portada__bajada">San Javier · Traslasierra · Córdoba</p>
+            <h1>Un descanso con la montaña cerca</h1>
+            <p>Cuatro cabañas equipadas para bajar un cambio, respirar aire puro y disfrutar Traslasierra.</p>
+            <a class="boton" href="#cabanas">Conocé las cabañas</a>
+        </section>
+
+        <section class="cabanas" id="cabanas">
+            <h2>Nuestras cabañas</h2>
+            <p class="cabanas__intro">Elegí la que más te guste y dejanos tu consulta para reservar.</p>
+            <!-- Cada article es una ficha propia, con foto, descripción, precio y enlace. -->
+            <div class="grilla-cabanas">
+                <article class="tarjeta">
+                    <img src="./recursos/imagenes/cabana-1.jpg" alt="Cabaña de madera rodeada de árboles al pie de la montaña">
+                    <div class="tarjeta__texto">
+                        <h3>Cabaña 1</h3>
+                        <p>Lorem ipsum dolor sit amet, con espacios cómodos y todo lo necesario para descansar.</p>
+                        <p class="precio">Desde $85.000 por día</p>
+                        <a href="reservas.html?cabana=1">Consultar por esta cabaña</a>
+                    </div>
+                </article>
+                <article class="tarjeta">
+                    <img src="./recursos/imagenes/cabana-2.jpg" alt="Cabaña de madera iluminada entre las sierras de Traslasierra">
+                    <div class="tarjeta__texto">
+                        <h3>Cabaña 2</h3>
+                        <p>Lorem ipsum dolor sit amet, un rincón tranquilo para compartir unos días en la sierra.</p>
+                        <p class="precio">Desde $90.000 por día</p>
+                        <a href="reservas.html?cabana=2">Consultar por esta cabaña</a>
+                    </div>
+                </article>
+                <article class="tarjeta">
+                    <img src="./recursos/imagenes/cabana-3.jpg" alt="Cabaña de madera con galería y paisaje serrano">
+                    <div class="tarjeta__texto">
+                        <h3>Cabaña 3</h3>
+                        <p>Lorem ipsum dolor sit amet, con una galería para disfrutar el aire libre y el paisaje.</p>
+                        <p class="precio">Desde $95.000 por día</p>
+                        <a href="reservas.html?cabana=3">Consultar por esta cabaña</a>
+                    </div>
+                </article>
+                <article class="tarjeta">
+                    <img src="./recursos/imagenes/cabana-4.jpg" alt="Cabaña de madera al atardecer, rodeada de vegetación serrana">
+                    <div class="tarjeta__texto">
+                        <h3>Cabaña 4</h3>
+                        <p>Lorem ipsum dolor sit amet, equipada para pasar unos días cómodos junto a la montaña.</p>
+                        <p class="precio">Desde $100.000 por día</p>
+                        <a href="reservas.html?cabana=4">Consultar por esta cabaña</a>
+                    </div>
+                </article>
+            </div>
+            <!-- Dejamos los valores como referencia hasta que el cliente confirme las tarifas reales. -->
+            <p class="nota-precios">Precios de ejemplo por día; consultar disponibilidad y tarifa final.</p>
+        </section>
+    </main>
+
+    <!-- El mismo pie en ambas páginas mantiene a mano los datos del proyecto. -->
+    <footer class="pie">
+        <div class="pie__interior">
+            <p class="pie__texto">Retiro Sustentable · San Javier, Traslasierra, Córdoba</p>
+            <a href="reservas.html">Hacer una consulta</a>
+        </div>
+    </footer>
+</body>
+</html>
