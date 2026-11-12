@@ -1,3 +1,5 @@
-﻿# Actividad 9
+# Actividad 9: consola y sintaxis básica
 
-Carpeta preparada para desarrollar la actividad. Agregar aquí el enunciado y los archivos cuando estén disponibles.
+- `index.html` carga el archivo `index.js`.
+- Al abrir la página, los resultados se muestran en la consola del navegador.
+- El ejemplo de parentesco muestra a Benja como hermano de Alex.
